@@ -11,7 +11,7 @@ module Memorable
     end
 
     def count
-      @@artists.count
+      all.count
     end
 
   end

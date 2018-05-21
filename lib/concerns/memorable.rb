@@ -5,6 +5,7 @@ module Memorable
   end
 
   module ClassMethods
+
   end
 
 end

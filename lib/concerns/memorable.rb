@@ -15,9 +15,9 @@ module Memorable
   module InstanceMethods
 
     def initialize
-      @@songs << self
+      self.class.all << self
     end
-    
+
   end
 
 end

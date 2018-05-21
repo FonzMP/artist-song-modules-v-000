@@ -6,4 +6,6 @@ module findable
       all.detect{|a| a.name == name}
     end
 
+  end
+
 end
